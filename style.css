@@ -1,0 +1,103 @@
+* {
+    scrollbar-width: none;
+    scrollbar-color: #464a53 #2a303c;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #2a303c;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #464a53;
+    border-radius: 0px;
+    border: 0px none #ffffff;
+  }
+
+  textarea.form-control::placeholder {
+    color: white;
+  }
+
+  textarea.form-control:focus::placeholder {
+    color: gray;
+  }
+  
+  body {
+    background-color: #272d38;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+  }
+
+  
+  .main {
+    width: 100%;
+  }
+
+  .howtouse {
+    background-color: #1b212a61;
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+  }
+
+
+  a {
+    color:rgb(70, 168, 214);
+  }
+  
+  .textarea {
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+    background-color: #2A303C;
+    color: #FFFFFF;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;   
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #2A303C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .tweet {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .stats {
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+  
+  #stats-output {
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+  
+  .left {
+    float: left;
+    margin: 0 10px 0 0;
+  }
+  

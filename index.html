@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tweet Splitter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  <link rel="shortcut icon" href="Logo_of_Twitter.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-3">
+        <h1>Tweet Splitter</h1>
+        <p>Tweet Splitter is a simple web tool that helps you split long tweets into multiple shorter ones without
+          losing
+          the meaning. This is particularly useful for Twitter users who want to share longer texts within the character
+          limit.</p>
+
+        <h2>How to Use</h2>
+        <ol>
+          <li>Open the web page.</li>
+          <li>Enter your tweet in the provided text area.</li>
+          <li>Click the "Split Tweets" button to split the tweet.</li>
+          <li>The tool will split your tweet into multiple shorter tweets, preserving sentence structures.</li>
+          <li>You can click on any individual tweet to copy it to your clipboard.</li>
+          <li>The tool also provides statistics on the number of characters, words, paragraphs, and sentences in your
+            input.</li>
+        </ol>
+      </div>
+      <div class="col-md-6 row d-flex flex-column justify-content-center align-items-center">
+        <div class="text-center">
+          <img src="Logo_of_Twitter.svg" height="35px" width="35px" alt="eX-Twitter Logo">
+          <h1>Tweet Splitter</h1>
+        </div>
+        <div class="stats mt-3"></div>
+        <textarea id="tweet-input" class="form-control textarea align-items-center"
+          placeholder="Enter your tweet here"></textarea>
+        <br />
+        <div class="text-center">
+          <button id="split-button" class="btn btn-primary">Split Tweets</button>
+          <button id="clear-button" class="btn btn-danger">Clear</button>
+        </div>
+        <div class="mt-3" style="height: 300px; overflow-y: auto;" id="tweet-output"></div>
+        <div id="stats-output"></div>
+      </div>
+
+      <div class="col-md-3">
+        <h2>Development</h2>
+        <p>The application is developed using HTML, CSS, and JavaScript.</p>
+        <p>Feel free to contribute, report issues, or suggest improvements!</p>
+        <p>Developed by: <a href="https://github.com/npcHamza" target="_blank">npcHamza</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
